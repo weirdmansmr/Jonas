@@ -4,7 +4,7 @@ import PercentSelect from "./PercentSelect/PercentSelect";
 import Output from "./Output/Output";
 import Reset from "./Reset/Reset";
 
-export const TipCalc = () => {
+const TipCalc = () => {
 	const [bill, setBill] = useState(0);
 	const [servU, setServU] = useState(0);
 	const [servF, setServF] = useState(0);
@@ -29,3 +29,5 @@ export const TipCalc = () => {
 		</>
 	);
 };
+
+export default TipCalc;
